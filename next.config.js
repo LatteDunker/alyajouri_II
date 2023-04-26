@@ -8,7 +8,7 @@ const nextConfig = {
         destination: "/",
       },
     ];
-  },
+  },/* Netlify requires its own redirection when deploying with them
   async redirects() {
     return [
       {
@@ -18,7 +18,7 @@ const nextConfig = {
         basePath: false,
       },
     ]
-  },
+  }, */
 };
 
 module.exports = nextConfig;
