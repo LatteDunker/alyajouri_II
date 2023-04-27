@@ -1,0 +1,5 @@
+[[redirects]]
+    from: "/url-shortener"
+    to = "https://www.alyajouri.com/"
+    status = 302
+    force = false
