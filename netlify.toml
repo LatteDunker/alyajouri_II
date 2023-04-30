@@ -1,5 +1,5 @@
 [[redirects]]
     from = "/url-shortener"
-    to = "https://www.alyajouri.com/"
+    to = "https://url-shortener-d2y2.onrender.com/"
     status = 302
     force = false
