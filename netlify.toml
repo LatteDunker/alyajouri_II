@@ -1,5 +1,0 @@
-[[redirects]]
-    from = "/url-shortener"
-    to = "https://url-shortener-d2y2.onrender.com/"
-    status = 302
-    force = false
