@@ -18,6 +18,14 @@ document.addEventListener("DOMContentLoaded", function(event){
 		ascii_text_element.textContent = data;
 		document.body.append(ascii_text_element)
 	  });
+	  figlet('3rd floor library', {font: fontName}, function(err, data) {
+		if (err) {
+		  console.error(err);
+		  return;
+		}
+		console.log(data)
+		console.log("Waxaan ku jeclahay in ka badan inta aad ogtahay.")
+	  });
 });
 
 
