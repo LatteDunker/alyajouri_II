@@ -12,8 +12,6 @@ document.addEventListener("DOMContentLoaded", function(event){
 		  console.error(err);
 		  return;
 		}
-		console.log(data)
-
 		const ascii_text_element = document.createElement('pre');
 		ascii_text_element.textContent = data;
 		document.body.append(ascii_text_element)
